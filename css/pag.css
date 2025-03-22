@@ -1,0 +1,153 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilo del encabezado */
+header {
+    text-align: center;
+    background-color: #326771;
+    color: white;
+    padding: 40px;
+}
+
+/* Estilo de la imagen de perfil */
+header img.perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+}
+
+/* Menú de navegación */
+nav {
+    background: #2c3e50;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #1abc9c; /* Cambio de color al pasar el mouse */
+}
+
+/* Contenedor principal */
+main {
+    padding: 30px;
+    max-width: 850px;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Sección de Proyectos */
+.proyectos-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.proyecto {
+    background: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+
+/* Efecto para el botón al hacer clic */
+.btn-mas {
+    background: #1c548d;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-mas:hover {
+    background: #1abc9c;
+}
+.descripcion-extra {
+    display: none; /* Oculta la descripción por defecto */
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #dfe6e9;
+    border-left: 4px solid #2c3e50;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.mostrar {
+    display: block; /* Muestra la descripción cuando se haga clic */
+}
+
+
+/* Botones */
+.btn-mas {
+    background: #2c3e50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-mas:hover {
+    background: #0a352c;
+}
+
+/* Estilo del formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    background: #2c3e50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1abc9c;
+}
+
+/* Estilo del pie de página */
+footer {
+    text-align: center;
+    background-color: #326771;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+}

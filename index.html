@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Personal</title>
+    <link rel="stylesheet" href="css/pag.css"> <!-- Enlace al archivo CSS -->
+</head>
+<body>
+
+    <!-- Encabezado principal con foto de perfil y frase -->
+    <header>
+        <h1>¡Hola, soy Marly Francineth Pichol López!</h1>
+        <p>"Construyendo el futuro digital, una línea de código a la vez."</p>
+        <img src="perfil.jpg" alt="Foto de perfil" class="perfil">
+    </header>
+
+    <!-- Menú de navegación para moverse entre secciones -->
+    <nav>
+        <ul>
+            <li><a href="#info">Sobre Mí</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Sección de información personal -->
+        <section id="info">
+            <h2>Sobre Mí</h2>
+            <p>Soy estudiante de Ingeniería en Sistemas y Ciencias de la Computación. Desde siempre me ha interesado la tecnología y la manera en que podemos crear soluciones innovadoras a través del código. Actualmente me encuentro en proceso de formación como desarrolladora, aprendiendo y mejorando mis habilidades día a día.</p>
+            <ul>
+                <li><strong>Habilidades:</strong> HTML, CSS, JavaScript</li>
+                <li><strong>Diseño Responsivo:</strong>Me aseguro de que mis proyectos sean accesibles en distintos dispositivos, desde computadoras hasta teléfonos móviles.</li>
+                <li><strong>Lógica de Programación:</strong> Disfruto resolver problemas y encontrar soluciones eficientes para mejorar la experiencia del usuario.</li>
+            </ul>
+        </section>
+
+        <!-- Sección de proyectos con imágenes y botones interactivos -->
+        <section id="proyectos">
+            <h2>Mis Proyectos</h2>
+            <div class="proyectos-container">
+                <div class="proyecto">
+                    <img src="EXPLORA EL MUNDO.png" alt="Proyecto 1">
+                    <h3>ExploraMundo</h3>
+                    <p>Un blog de viajes interactivo donde los usuarios pueden compartir experiencias y consejos.</p>
+                    <button class="btn-mas">Ver más</button>
+                    <div class="descripcion-extra">
+                        <p>Este proyecto está diseñado para permitir a los viajeros compartir sus experiencias, subir fotos y encontrar recomendaciones sobre destinos turísticos en el mundo.</p>
+                    </div>
+                </div>
+        
+                <div class="proyecto">
+                    <img src="APRENDE YA.png" alt="Proyecto 2">
+                    <h3>AprendeYa</h3>
+                    <p>Plataforma educativa con cursos gratuitos y de pago sobre diversas materias.</p>
+                    <button class="btn-mas">Ver más</button>
+                    <div class="descripcion-extra">
+                        <p>AprendeYa es una plataforma de e-learning donde los usuarios pueden acceder a cursos sobre programación, diseño gráfico, idiomas y muchas más áreas del conocimiento.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <!-- Sección de contacto con formulario -->
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form id="contact-form">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" placeholder="Tu Nombre" required>
+
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" placeholder="Tu Correo" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" placeholder="Tu Mensaje" required></textarea>
+
+                <button type="submit">Enviar</button> <!-- Botón de envío -->
+            </form>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2025 | Todos los derechos reservados</p>
+    </footer>
+
+    <script src="pag.js"></script> <!-- Enlace al archivo JavaScript -->
+</body>
+</html>
+
