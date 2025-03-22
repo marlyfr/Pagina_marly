@@ -1,6 +1,6 @@
 # 🌐 Mi Página Personal
 
-![Web Preview](https://marlyfr.github.io)
+![Web Preview](https://github.com/marlyfr/Pagina_marly.git)
 
 ## 📌 Descripción  
 Este proyecto es una **página web personal** desarrollada con **HTML, CSS y JavaScript**, con una estructura clara y formal para mostrar información personal, proyectos y un formulario de contacto interactivo.
